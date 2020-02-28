@@ -23,9 +23,9 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 # RSS feeds for the data
-unass_rss = urllib2.urlopen('https://support.centiq.co.uk/staff/feed/fbfefc5a-18bd-fb3c-239d-e64b1ed3c7a0/7.rss')
-details_rss = urllib2.urlopen('https://support.centiq.co.uk/staff/feed/fbfefc5a-18bd-fb3c-239d-e64b1ed3c7a0/137.rss')
-triage_rss = urllib2.urlopen('https://support.centiq.co.uk/staff/feed/fbfefc5a-18bd-fb3c-239d-e64b1ed3c7a0/140.rss')
+unass_rss = urllib2.urlopen('https://support.<COMPANY>.co.uk/staff/feed/fbfefc5a-18bd-fb3c-239d-e64b1ed3c7a0/7.rss')
+details_rss = urllib2.urlopen('https://support.<COMPANY>.co.uk/staff/feed/fbfefc5a-18bd-fb3c-239d-e64b1ed3c7a0/137.rss')
+triage_rss = urllib2.urlopen('https://support.<COMPANY>.co.uk/staff/feed/fbfefc5a-18bd-fb3c-239d-e64b1ed3c7a0/140.rss')
 
 unass_qry = unass_rss.read()
 details_qry = details_rss.read()
